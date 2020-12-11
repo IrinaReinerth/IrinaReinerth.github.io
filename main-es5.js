@@ -215,7 +215,7 @@
         function AboutComponent() {
           _classCallCheck(this, AboutComponent);
 
-          this.myPhotoUrl = "assets/img/me2.jpg";
+          this.myPhotoUrl = "assets/img/me.jpg";
           this.myStory = "My Story -";
           this.paragrafs = ['I am an Interaction Engineer and Usability specialist with a passion to bring clear logic, good user experience, and a pleasant UI to web-based platforms.', 'I started in 2014 to learn about web technologies namely HTML, CSS, and Javascript. Followed by a Master program in Computer Graphics and Web Design, I deepened my knowledge in Helsinki’s Aalto University with the following courses: human-computer interaction, user-oriented design and usability product design.",     ', 'I am hands on with most popular prototyping and design tools like Adobe CC, Sketch, Figma, Invision, Anima, Craft and I am an active user of design thinking methods and I am used to work in an agile environment.'];
           this.educations = [{

@@ -110,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 
 let AboutComponent = class AboutComponent {
     constructor() {
-        this.myPhotoUrl = "assets/img/me2.jpg";
+        this.myPhotoUrl = "assets/img/me.jpg";
         this.myStory = "My Story -";
         this.paragrafs = [
             'I am an Interaction Engineer and Usability specialist with a passion to bring clear logic, good user experience, and a pleasant UI to web-based platforms.',
