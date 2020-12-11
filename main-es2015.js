@@ -142,11 +142,15 @@ let AboutComponent = class AboutComponent {
             },
             {
                 year: '2017',
-                name: 'Avanta Digital, Web-designer'
+                name: 'Netcracker , UX&UI Designer'
+            },
+            {
+                year: '2017',
+                name: 'Avanta Digital, Web & graphic designer'
             },
             {
                 year: '2012-2017',
-                name: 'Reksoft, project assistant'
+                name: 'Reksoft, project coordinator'
             }
         ];
         this.skills = "#HTML #CSS #JavaScript #bootstrap #Angular #Java #AdobeCC #AdobePhotoshop #AdobeIllustrator #Sketch #Figma #InVision #UI #UX #GraphicDesign #GifAnimation #WebDesign #ResponsiveDesign #CrosBrowserDesign #GitHub #Bitbucket #InteliJ";
@@ -251,6 +255,27 @@ __webpack_require__.r(__webpack_exports__);
 let ProjectsService = class ProjectsService {
     constructor() {
         this.projects = [];
+        this.projects.push({
+            id: 11,
+            coverPhoto: "assets/img/penenza_cover.jpg",
+            photoUrl: ["assets/img/penenza_cover.jpg", "assets/img/penenza1.png", "assets/img/penenza2.png"],
+            title: "Trader Account UX and UI design",
+            alt: "Trader Account UX and UI design",
+            description: ["Penenza is a russian project to connect governmental tender investors and borrowers without banks.",
+                "My role as an UX and UI designer was to create a self explanatory investor account and financial detalization sheet",
+                "Specific of the design is that money flow can have 3 states:",
+                "1. accrued interest",
+                "2. paid out",
+                "3. awaiting payment",
+                "4. fully paid",
+                "My job was to simplify for an investor visual definition of these payment states.",
+                "To create the UI I used Figma this time."
+            ],
+            projectTags: ["Finance Platform",
+                "UI in Figma",
+                "Customer dashboard design"
+            ]
+        });
         this.projects.push({
             id: 10,
             coverPhoto: "assets/img/Redesign_VM/cover3.jpg",
@@ -711,14 +736,6 @@ let ContactComponent = class ContactComponent {
         this.buttonNname = "Email me";
         this.socials = [
             {
-                socialIcoLink: "https://www.behance.net/irinaziborova",
-                socialIcoUrl: "assets/img/be.png"
-            },
-            {
-                socialIcoLink: "https://www.instagram.com/irinareinerth",
-                socialIcoUrl: "assets/img/insta.png"
-            },
-            {
                 socialIcoLink: "https://www.linkedin.com/in/ziborovairina/",
                 socialIcoUrl: "assets/img/in.png"
             }
@@ -846,14 +863,6 @@ let FooterComponent = class FooterComponent {
     constructor() {
         this.contact = 'How to contact';
         this.links = [
-            {
-                url: 'https://www.behance.net/irinaziborova',
-                title: 'Behance ‣'
-            },
-            {
-                url: 'https://www.instagram.com/irinareinerth/',
-                title: 'Instagram ‣'
-            },
             {
                 url: 'https://www.linkedin.com/in/ziborovairina/',
                 title: 'LinkedIn ‣'
